@@ -2,9 +2,6 @@ import React, { useState, useEffect } from 'react';
 
 
 const Headline = (props) => {
-  const [greeting, setGreeting] = useState(
-    'Hello Function Component!'
-  );
 
   const checkedHandler = () => {
     let checked = event.target.checked;
